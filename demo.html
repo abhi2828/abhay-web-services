@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    img {
+    margin: auto;
+    padding: 59px !important;
+}
+.ser-icon{
+  background: gold;
+}
+  </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
 
 $(document).ready(function(){
-  $(".ser-icon img").mouseenter(function(){
+  $(".service_details").mouseenter(function(){
     $(".black_image").css("display", "none");
     $('.white_image').css("display", "block");
   });
-  $(".ser-icon img").mouseleave(function(){
+  $(".service_details").mouseleave(function(){
     $('.black_image').css("display", "block");
     $(".white_image").css("display", "none");
   });
@@ -23,10 +32,6 @@ $(document).ready(function(){
         <img src="./images/domain2.png" class="white_image" width="60px" height="60px" style="display:none"/>
     </div>
 
-    <div class="ser-icon">
-        <img src="./images/domain.png" class="black_image1" width="60px" height="60px"/>
-        <img src="./images/domain2.png" class="white_image2" width="60px" height="60px" style="display:none"/>
-    </div>
 
 </body>
 </html>

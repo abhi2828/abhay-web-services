@@ -688,6 +688,13 @@ xclip
 	border-radius: 50px 50px 0px 50px;
 	position: relative;
 	transition: all 0.3s ease-in-out 0s;
+    height: 54vh;
+}
+.services-inner-box:hover img.white_image, img.black_image {
+    display: block;
+}
+img.white_image,.services-inner-box:hover img.black_image {
+    display: none;
 }
 .ser-icon{
 	width: 90px;
