@@ -72,6 +72,15 @@
 	}
 }
 @media (max-width: 767px) {
+	.services-inner-box{
+		text-align: center;
+	}
+	.ser-icon {
+		margin: auto;
+	}
+	.message-box p,.message-box a{
+		text-align: center;
+	}
 	#mainNav {
 		background-color: #333333;
 	}
@@ -178,6 +187,7 @@
 	.filter-button-group button{
 		padding: 12px 14px;
 		font-size: 12px;
+		margin: 5px;
 	}
 	.filter-button-group{
 		text-align: center !important;
