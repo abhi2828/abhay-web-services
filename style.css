@@ -679,8 +679,6 @@ xclip
     z-index: 0;
 }
 
-
-
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
@@ -690,6 +688,7 @@ xclip
 	transition: all 0.3s ease-in-out 0s;
     height: 54vh;
 }
+
 .services-inner-box:hover img.white_image, img.black_image {
     display: block;
 }
